@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/customboarder"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="Welcome to the Official Museum of Microorganisms"
+        android:textAlignment="center"
+        android:textColor="#80ff80"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:paddingTop="10dp"
+        android:src="@drawable/bacteria" />
+
+    <Button
+        android:onClick="theMuseum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Museum"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:background="#80ff80" />
+
+    </LinearLayout>
